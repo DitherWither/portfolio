@@ -1,0 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Inter Tight:700|Noto Sans:400");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -12,8 +12,10 @@ function HeaderBar() {
                 <div className="flex flex-col">
                     <nav className="h-full px-12 md:px-0">
                         <ul className="flex md:justify-center items-center gap-2 text-xl h-full text-secondary-200 underline">
-                            <li>
+                            <li className="flex gap-4">
                                 <a href="#contact-details">Contact Me</a>
+                                <a href="#about">About Me</a>
+                                <a href="#educational-qualifications">Education</a>
                             </li>
                         </ul>
                     </nav>

@@ -19,10 +19,10 @@ function Intro() {
                 bg-gradient-to-b from-secondary-950 from-40% to-secondary-700
                 text-center flex-col"
         >
-            <h2 className="text-4xl md:text-5xl font-heading font-bold">
+            <h2 className="text-3xl md:text-5xl font-heading font-bold">
                 Hi There
             </h2>
-            <p className="md:text-xl">
+            <p className="text-xl">
                 I'm Vardhan Patil, and I'm a web developer from Kolhapur, India.
             </p>
         </section>
@@ -32,7 +32,7 @@ function Intro() {
 function ContactDetails() {
     return (
         <section id="contact-details" className="bg-primary-900 p-9 py-16">
-            <h2 className="text-4xl md:text-5xl font-heading">Contact Me</h2>
+            <h2 className="text-3xl md:text-5xl font-heading">Contact Me</h2>
             <div className="flex justify-center items-center my-4">
                 <ul className="grow max-w-4xl flex flex-col gap-4 font-bold">
                     <li className="flex flex-row">
@@ -85,7 +85,7 @@ function AboutMe() {
             className="bg-secondary-700 p-9 pb-16 flex justify-center"
         >
             <div className="max-w-3xl text-xl">
-                <h2 className="text-4xl md:text-5xl font-heading text-center">
+                <h2 className="text-3xl md:text-5xl font-heading text-center">
                     About Me
                 </h2>
                 <p className="mt-8">
@@ -112,7 +112,7 @@ function EducationalQualifications() {
             id="educational-qualifications"
             className="bg-gradient-to-b from-secondary-700 to-primary-900 p-9 pb-16 flex justify-center items-center flex-col"
         >
-            <h2 className="text-4xl md:text-5xl font-heading text-center">
+            <h2 className="text-3xl md:text-5xl font-heading text-center">
                 Education
             </h2>
             <div className="max-w-3xl text-xl">

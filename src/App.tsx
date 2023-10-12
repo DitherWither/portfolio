@@ -3,7 +3,7 @@ import { Body } from "./Home";
 function HeaderBar() {
     return (
         <>
-            <div className="flex px-4 md:px-24 py-4 bg-transparent flex-col md:flex-row">
+            <div className="flex px-4 md:px-24 py-4 flex-col md:flex-row bg-gradient-to-b from-background-900 from-0% to-80% to-transparant">
                 <div className="flex-grow">
                     <h1 className="text-2xl font-heading font-bold">
                         Vardhan Patil

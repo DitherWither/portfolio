@@ -1,15 +1,39 @@
+import { Body } from "./Home";
+
+function HeaderBar() {
+    return (
+        <>
+            <div className="flex px-8 py-4 bg-secondary-800">
+                <h1 className="text-2xl font-heading">Vardhan Patil</h1>
+            </div>
+        </>
+    );
+}
+
+function Footer() {
+    return (
+        <>
+            <div className="bg-secondary-800 text-center p-8">
+                <p className="text-xl text-text-200">
+                    &copy; 2023 Vardhan Patil, All rights reserved.
+                </p>
+            </div>
+        </>
+    );
+}
+
 function App() {
     return (
         <>
-          <div className="flex justify-center items-center min-h-screen">
-            <div className="text-center ">
-                <h1 className="text-5xl font-heading">Hi There</h1>
-                <p>
-                    This site is a work in progress, and it'll have content here
-                    soon
-                </p>
-            </div>
-          </div>
+            <header>
+                <HeaderBar />
+            </header>
+            <main>
+                <Body />
+            </main>
+            <footer>
+                <Footer />
+            </footer>
         </>
     );
 }

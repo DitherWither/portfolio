@@ -15,7 +15,9 @@ function HeaderBar() {
                             <li className="flex gap-4">
                                 <a href="#contact-details">Contact Me</a>
                                 <a href="#about">About Me</a>
-                                <a href="#educational-qualifications">Education</a>
+                                <a href="#educational-qualifications">
+                                    Education
+                                </a>
                             </li>
                         </ul>
                     </nav>
@@ -28,7 +30,7 @@ function HeaderBar() {
 function Footer() {
     return (
         <>
-            <div className="bg-secondary-800 text-center p-8">
+            <div className="bg-gradient-to-b from-primary-900 to-30% to-secondary-800 text-center p-12 pt-20">
                 <p className="text-xl text-text-200">
                     &copy; 2023 Vardhan Patil, All rights reserved.
                 </p>

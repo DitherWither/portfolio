@@ -32,7 +32,7 @@ function Intro() {
 function ContactDetails() {
     return (
         <section id="contact-details" className="bg-primary-900 p-9 py-16">
-            <h2 className="text-3xl md:text-5xl font-heading">Contact Me</h2>
+            <h2 className="text-3xl md:text-5xl font-heading text-center">Contact Me</h2>
             <div className="flex justify-center items-center my-4">
                 <ul className="grow max-w-4xl flex flex-col gap-4 font-bold">
                     <li className="flex flex-row">

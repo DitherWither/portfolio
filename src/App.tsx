@@ -40,7 +40,7 @@ function Footer() {
 function App() {
     return (
         <>
-            <header>
+            <header className="sticky top-0">
                 <HeaderBar />
             </header>
             <main>

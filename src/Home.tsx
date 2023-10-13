@@ -22,7 +22,7 @@ function Intro() {
             <h2 className="text-3xl md:text-5xl font-heading font-bold">
                 Hi There
             </h2>
-            <p className="text-xl">
+            <p className="md:text-xl">
                 I'm Vardhan Patil, and I'm a web developer from Kolhapur, India.
             </p>
         </section>
@@ -84,7 +84,7 @@ function AboutMe() {
             id="about"
             className="bg-secondary-700 p-9 pb-16 flex justify-center"
         >
-            <div className="max-w-3xl text-xl">
+            <div className="max-w-3xl md:text-xl">
                 <h2 className="text-3xl md:text-5xl font-heading text-center">
                     About Me
                 </h2>
@@ -115,7 +115,7 @@ function EducationalQualifications() {
             <h2 className="text-3xl md:text-5xl font-heading text-center">
                 Education
             </h2>
-            <div className="max-w-3xl text-xl">
+            <div className="max-w-3xl md:text-xl">
                 <p className="mt-8"></p>I completed my 10th grade from the
                 National Institute of Open Schooling, and was homeschooled.
                 Before that, I have attended New English Medium School, Sanjay

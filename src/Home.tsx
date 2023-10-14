@@ -17,12 +17,12 @@ function Intro() {
             id="intro"
             className="flex justify-center items-center min-h-screen
                 bg-gradient-to-b from-secondary-950 from-40% to-secondary-700
-                text-center flex-col"
+                text-center flex-col p-9"
         >
             <h2 className="text-3xl md:text-5xl font-heading font-bold">
                 Hi There
             </h2>
-            <p className="md:text-xl">
+            <p className="md:text-xl max-w-4xl">
                 I'm Vardhan Patil, and I'm a web developer from Kolhapur, India.
             </p>
         </section>

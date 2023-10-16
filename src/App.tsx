@@ -18,6 +18,7 @@ function HeaderBar() {
                                 <a href="#educational-qualifications">
                                     Education
                                 </a>
+                                <a href="#projects">Projects</a>
                             </li>
                         </ul>
                     </nav>

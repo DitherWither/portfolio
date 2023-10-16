@@ -1,4 +1,4 @@
-import { CommentDiscussionIcon, MailIcon } from "@primer/octicons-react";
+import { CommentDiscussionIcon, MailIcon, MarkGithubIcon } from "@primer/octicons-react";
 
 export function Body() {
     return (
@@ -57,6 +57,7 @@ function ContactDetails() {
                             <a
                                 href="https://discord.com/users/723414810644971572"
                                 className="underline"
+                                target="_blank"
                             >
                                 @ditherwither
                             </a>{" "}
@@ -72,6 +73,19 @@ function ContactDetails() {
                                 className="underline"
                             >
                                 vardhanpatil@proton.me
+                            </a>
+                        </span>
+                    </li>
+                    <li className="flex flex-row gap-1">
+                        <MarkGithubIcon size={24} className="mx-4" />
+                        <span>
+                            Check my github repos at {" "}
+                            <a
+                                href="https://github.com/DitherWither"
+                                className="underline"
+                                target="_blank"
+                            >
+                                @DitherWither
                             </a>
                         </span>
                     </li>

@@ -137,7 +137,7 @@ function EducationalQualifications() {
 function Projects() {
     return (
         <section
-            id="educational-qualifications"
+            id="projects"
             className="bg-primary-900 p-9 pb-16 flex justify-center items-center flex-col"
         >
             <h2 className="text-3xl md:text-5xl font-heading text-center">

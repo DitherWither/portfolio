@@ -6,6 +6,7 @@ export function Body() {
             <Intro />
             <AboutMe />
             <EducationalQualifications />
+            <Projects />
             <ContactDetails />
         </>
     );
@@ -32,7 +33,9 @@ function Intro() {
 function ContactDetails() {
     return (
         <section id="contact-details" className="bg-primary-900 p-9 py-16">
-            <h2 className="text-3xl md:text-5xl font-heading text-center">Contact Me</h2>
+            <h2 className="text-3xl md:text-5xl font-heading text-center">
+                Contact Me
+            </h2>
             <div className="flex justify-center items-center my-4">
                 <ul className="grow max-w-4xl flex flex-col gap-4 font-bold">
                     <li className="flex flex-row">
@@ -116,14 +119,75 @@ function EducationalQualifications() {
                 Education
             </h2>
             <div className="max-w-3xl md:text-xl">
-                <p className="mt-8"></p>I completed my 10th grade from the
-                National Institute of Open Schooling, and was homeschooled.
-                Before that, I have attended New English Medium School, Sanjay
-                Ghodawat International School, and Podar International School.
+                <p className="mt-8">
+                    I completed my 10th grade from the National Institute of
+                    Open Schooling, and was homeschooled. Before that, I have
+                    attended New English Medium School, Sanjay Ghodawat
+                    International School, and Podar International School.
+                </p>
                 <p className="mt-8">
                     I am currently doing a Computer Science Diploma in D Y Patil
                     Polytechnic, Kasaba Bawada, and I'm in the first year.
                 </p>
+            </div>
+        </section>
+    );
+}
+
+function Projects() {
+    return (
+        <section
+            id="educational-qualifications"
+            className="bg-primary-900 p-9 pb-16 flex justify-center items-center flex-col"
+        >
+            <h2 className="text-3xl md:text-5xl font-heading text-center">
+                Projects
+            </h2>
+            <div className="max-w-3xl md:text-xl">
+                <ul className="list-disc flex flex-col gap-4 mt-8">
+                    <li>
+                        <a
+                            href="https://writtr.web.app"
+                            target="_blank"
+                            className="underline font-bold"
+                        >
+                            Writtr:
+                        </a>{" "}
+                        A website for writers to write and publish their work.
+                    </li>
+                    <li>
+                        <a
+                            href="https://ditherwither.github.io/pomotime/"
+                            target="_blank"
+                            className="underline font-bold"
+                        >
+                            PomoTime:
+                        </a>{" "}
+                        A simple pomodoro timer.
+                    </li>
+                    <li>
+                        <a
+                            href="https://chibi.shuttleapp.rs/"
+                            target="_blank"
+                            className="underline font-bold"
+                        >
+                            Chibi URL:
+                        </a>{" "}
+                        A simple URL shortener, with an public api that helps
+                        you shorten urls
+                    </li>
+                    <li>
+                        <a
+                            href="https://nakshatralawns.netlify.app/"
+                            target="_blank"
+                            className="underline font-bold"
+                        >
+                            Nakshatra Lawns:
+                        </a>{" "}
+                        A pollution-free party lawn less than 30 minutes from
+                        Kolhapur.
+                    </li>
+                </ul>
             </div>
         </section>
     );

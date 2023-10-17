@@ -11,7 +11,7 @@ import { renderToReadableStream } from "react-dom/server";
 import { createSitemapGenerator } from "remix-sitemap";
 
 const { isSitemapUrl, sitemap } = createSitemapGenerator({
-  siteUrl: "https://dither.dev",
+  siteUrl: "https://www.dither.dev",
   generateRobotsTxt: true,
 });
 

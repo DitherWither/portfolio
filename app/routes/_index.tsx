@@ -261,7 +261,7 @@ function Projects() {
               className="underline font-bold"
               rel="noreferrer"
             >
-              Nakshatra Lawns' Website:
+              Nakshatra Lawns' website:
             </a>{" "}
             A pollution-free party lawn less than 30 minutes from Kolhapur.
           </li>

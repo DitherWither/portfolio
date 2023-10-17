@@ -45,7 +45,7 @@ export default async function handleRequest(
   responseHeaders.set("Content-Type", "text/html");
   responseHeaders.set(
     "Content-Security-Policy",
-    "script-src 'self' 'unsafe-inline' ajax.cloudflare.com static.cloudflareinsights.com; connect-src cloudflareinsights.com ws://localhost:*"
+    "script-src 'self' 'unsafe-inline' ajax.cloudflare.com static.cloudflareinsights.com; connect-src 'self' cloudflareinsights.com ws://localhost:*"
   );
   return new Response(body, {
     headers: responseHeaders,

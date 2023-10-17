@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-    body {
-        font-size: 15px;
-    }
+  body {
+    font-size: 15px;
+  }
 }
